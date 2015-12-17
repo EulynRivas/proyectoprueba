@@ -1,0 +1,16 @@
+{% block body %}
+    <h2>Product New</h2>
+
+
+        {{ form_start(form) }}
+
+            <p>{{ form_errors(form) }}</p>
+            <p>Nombre{{ form_widget(form.nombre) }}</p>
+            <p>Categoria {{ form_widget(form.fkcategoria) }}</p>
+             <br/>
+            <p>{{ form_widget(form.Guardar) }}</p>
+
+        {{ form_end(form) }}
+
+
+{% endblock %}

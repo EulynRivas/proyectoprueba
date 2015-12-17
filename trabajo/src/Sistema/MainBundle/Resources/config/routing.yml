@@ -1,0 +1,6 @@
+sistema_main_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SistemaMainBundle:Default:index }
+sistema_product_add:
+    path:     /producto/add
+    defaults: { _controller: SistemaMainBundle:Producto:agregar }
